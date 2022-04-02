@@ -1,1 +1,1 @@
-web: voila --port=7654 --no-browser StarcraftProject.ipynb
+web: voila --port=$PORT --no-browser --template=material --enable_nbextensions=True StarcraftProject.ipynb
